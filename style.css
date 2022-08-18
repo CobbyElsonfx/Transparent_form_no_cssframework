@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande';
+}
+
+body{
+    margin: 0px;
+    background-color: rgba(89, 54, 7, 0.948);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(lamp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.hero{
+    opacity: 0.9;
+    
+
+     
+}
+
+form h1 {
+    opacity: 0.8;
+    text-shadow: 1px 1px 1px  rgba(255, 255, 255, 0.6);
+}
+
+form{
+    height: 500px;
+    width: 300px;
+    text-align: center;
+    border-radius: 9px;
+    box-shadow: 4px  4px 4px 10px rgba(0, 0, 0, 0.9);
+    
+   
+}
+
+.input-group {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+label {
+    position: absolute;
+    bottom: -20px;
+    left: 35%;
+    color: rgb(0, 0, 0);
+    font-family:  cursive;
+}
+
+input {
+    background-color: transparent;
+    outline: none;
+    border-radius: 3px;
+    border-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+#submit {
+    background-color: rgb(34, 2, 2);
+    color: white;
+    opacity: 0.9;
+}
+
+
+
+
+
+
